@@ -24,13 +24,13 @@ function TodoItem({ todo, toggleComplete, startEdit, deleteTodo }) {
           className='text-gray-600 hover:text-indigo-600'
           disabled={todo.completed}
         >
-          <Edit size={18} className={todo.completed ? 'opacity-30' : ''} />
+          <Edit size={20} className={todo.completed ? 'opacity-30' : ''} />
         </button>
         <button
           onClick={() => deleteTodo(todo.id)}
           className='text-gray-600 hover:text-red-600'
         >
-          <Trash2 size={18} />
+          <Trash2 size={20} />
         </button>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Plus } from 'lucide-react'
 
 const AddTodo = ({ inputValue, addTodo, setInputValue, handleKeyDown }) => {
   return (
@@ -20,7 +21,7 @@ const AddTodo = ({ inputValue, addTodo, setInputValue, handleKeyDown }) => {
           onClick={addTodo}
           className='px-4 py-2  mx-4 bg-indigo-600 text-white rounded-r-lg hover:bg-indigo-700 flex items-center justify-center'
         >
-          <Plus size={18} />
+          <Plus size={24} />
         </button>
       </div>
     </>
